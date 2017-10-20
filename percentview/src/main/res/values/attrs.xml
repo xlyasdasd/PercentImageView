@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--百分比ImageView-->
+    <declare-styleable name="RateImageView">
+        <attr name="uiWidth" format="integer"/>
+        <attr name="uiHeight" format="integer"/>
+        <attr name="resize" format="enum">
+            <enum name="height" value="0"/>
+            <enum name="width" value="1"/>
+            <enum name="screen" value="2" />
+        </attr>
+        <attr name="uiScreenWidth" format="integer"/>
+    </declare-styleable>
+
+</resources>
